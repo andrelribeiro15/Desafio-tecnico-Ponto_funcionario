@@ -42,8 +42,7 @@ CREATE DATABASE registro_ponto;
 USE registro_ponto;
 Crie as tabelas:
 
-sql
-Copiar
+
 CREATE TABLE usuarios (
   id INT AUTO_INCREMENT PRIMARY KEY,
   matricula VARCHAR(50) UNIQUE NOT NULL,
@@ -73,6 +72,7 @@ VALUES (
   'admin'
 );
 "
+---
 
 2. Configurar o Backend (Node.js)
 Acesse a pasta /backend no terminal.
@@ -98,6 +98,8 @@ Inicie o backend:
 node index.js
 O backend estará rodando em:
 http://localhost:3001
+
+---
 
 3. Executar o Frontend (HTML)
 Acesse a pasta /frontend.
